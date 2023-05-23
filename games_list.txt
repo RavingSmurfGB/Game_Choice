@@ -24,7 +24,6 @@ scp: secret Labaoratory
 smite
 sonic and sega transofmred
 smashcarts
-spellbreak
 Town of slalem
 valheim
 Dead by deadlight
@@ -53,3 +52,4 @@ Grid 2019
 Diablo 3
 project zomboid
 Satisfactory
+phasmophobia
