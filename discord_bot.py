@@ -47,7 +47,8 @@ async def random_game(ctx):
     """
     game = random.choice(list(get_games_list()))
     phrase = random.choice(RANDOM_PHRASE)
-    steam_link = get_steam_game_link(game)
+    steam_link = None
+    #steam_link = get_steam_game_link(game)
 
     if steam_link is not None:
         message = phrase + f"{game} \nURL can be found here: {steam_link}"
