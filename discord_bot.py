@@ -2,6 +2,7 @@
 import os
 import random
 import requests
+import yaml
 
 import discord
 from discord.ext import commands
@@ -10,50 +11,42 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-CURRENT_GAMES_LIST="https://raw.githubusercontent.com/RavingSmurfGB/Game_Choice/main/games_list.txt"
+GAMES_LIST="https://raw.githubusercontent.com/RavingSmurfGB/Game_Choice/main/games_list.yaml"
 RANDOM_PHRASE= [
     "Loki, the god of mischief has chosen: ",
     "I span the wheel and it came back with: ",
     "I've not rigged this but your game is: ",
     "Did you know you don't get taxed on your: ",
     "It was between WatchTogether and this, I thought you'd prefer this: "
+    "Fear Not! I'll save you and your boredom: " 
 ]
-
-def get_steam_game_link(game: str):
-    """Polls the steam api for the game id returns game link
-    """
-    steam = requests.get(url="http://api.steampowered.com/ISteamApps/GetAppList/v0002/", timeout=60)
-    if steam.ok:
-        steam_games = steam.json()
-
-        for game_dic in steam_games["applist"]["apps"]:
-            if game == game_dic['name']:
-                return f'https://store.steampowered.com/app/{game_dic["appid"]}'
-
-    return None
 
 def get_games_list():
     """function to pull down current games list from main branch
     """
-    games_request = requests.get(url=CURRENT_GAMES_LIST, timeout=60)
+    games_request = requests.get(url=GAMES_LIST, timeout=60)
     if games_request.ok:
-        return [game.decode("utf-8").title().strip() for game in games_request.iter_lines()]
+        return yaml.safe_load(games_request.text)
 
     return None
+
+def filesize(size_gb: int):
+    """Function to convert int into human readble strings
+    """
+    if size_gb < 1:
+        size = f"{size_gb*100}MB"
+    else:
+        size = f"{size_gb}GB"
+    return size
 
 @bot.command(name="spin")
 async def random_game(ctx):
     """Randomly chooses a game from the list
     """
-    game = random.choice(list(get_games_list()))
+    game = random.choice(get_games_list()['games'])
     phrase = random.choice(RANDOM_PHRASE)
-    steam_link = None
-    #steam_link = get_steam_game_link(game)
 
-    if steam_link is not None:
-        message = phrase + f"{game} \nURL can be found here: {steam_link}"
-    else:
-        message = phrase + f"{game}"
+    message = phrase + f"{game['game']} \nLink: {game['link']} \nFilesize: {filesize(game['size_gb'])}"
 
     await ctx.send(message)
 
