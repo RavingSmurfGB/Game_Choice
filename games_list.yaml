@@ -1,0 +1,166 @@
+games:
+  - game: "Garry's Mod: Melon-Bomber"
+    link: https://store.steampowered.com/app/4000/Garrys_Mod/
+    size_gb: 20
+  - game: "Garry's Mod: PropHunt"
+    link: https://store.steampowered.com/app/4000/Garrys_Mod/
+    size_gb: 20
+  - game: "Garry's Mod: Surf"
+    link: https://store.steampowered.com/app/4000/Garrys_Mod/
+    size_gb: 20
+  - game: "Scribble It!"
+    link: https://store.steampowered.com/app/1088150/Scribble_It/
+    size_gb: 1
+  - game: "drawbattle.io"
+    link: https://drawbattle.io/
+    size_gb: 0
+  - game: "Table Top Simulator: Reverse jenga"
+    link: https://store.steampowered.com/app/286160/Tabletop_Simulator/
+    size_gb: 3
+  - game: "Table Top Simulator: Uno"
+    link: https://store.steampowered.com/app/286160/Tabletop_Simulator/
+    size_gb: 3
+  - game: "Fall Guys"
+    link: https://store.epicgames.com/en-US/p/fall-guys
+    size_gb: 2
+  - game: "Among Us"
+    link: https://store.steampowered.com/app/945360/Among_Us/
+    size_gb: 1
+  - game: "SpeedRunners"
+    link: https://store.steampowered.com/app/207140/SpeedRunners/
+    size_gb: 1
+  - game: "Golf With Your Friends"
+    link: https://store.steampowered.com/app/431240/Golf_With_Your_Friends/
+    size_gb: 4
+  - game: "Bloons TD 6"
+    link: https://store.steampowered.com/app/960090/Bloons_TD_6/
+    size_gb: 2
+  - game: "Sid Meier's Civilization® V"
+    link: https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/
+    size_gb: 8
+  - game: "Plutonium: COD Zombies"
+    link: https://plutonium.pw/
+    size_gb: 16 
+  - game: "Warcraft 3: Reforged"
+    link: https://warcraft3.blizzard.com/en-gb/
+    size_gb: 30
+  - game: "DOTA 2"
+    link: https://store.steampowered.com/app/570/Dota_2/
+    size_gb: 60
+  - game: "No Man's Sky"
+    link: https://store.steampowered.com/app/275850/No_Mans_Sky/
+    size_gb: 15
+  - game: "Halo Masterchief Collection: Custom Games"
+    link: https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/
+    size_gb: 43
+  - game: "Terraria"
+    link: https://store.steampowered.com/app/105600/Terraria/
+    size_gb: 0.500
+  - game: "Minecraft: (2023 April fools update)"
+    link: https://minecraft.fandom.com/wiki/Java_Edition_23w13a_or_b
+    size_gb: 1
+  - game: "Left4Dead2"
+    link: https://store.steampowered.com/app/550/Left_4_Dead_2/
+    size_gb: 13
+  - game: "PAYDAY 2"
+    link: https://store.steampowered.com/app/218620/PAYDAY_2/
+    size_gb: 83
+  - game: "Open TTD"
+    link: https://store.steampowered.com/app/1536610/OpenTTD/
+    size_gb: 0.500
+  - game: "SCP: Secret Laboratory"
+    link: https://store.steampowered.com/app/700330/SCP_Secret_Laboratory/
+    size_gb: 4
+  - game: "Smite"
+    link: https://store.steampowered.com/app/386360/SMITE/
+    size_gb: 30
+  - game: "Sonic & All-Stars Racing Transformed Collection"
+    link: https://store.steampowered.com/app/212480/Sonic__AllStars_Racing_Transformed_Collection/ 
+    size_gb: 7
+  - game: "SmashKarts"
+    link: https://smashkarts.io/
+    size_gb: 0
+  - game: "Town of Salem"
+    link: https://www.blankmediagames.com/TownOfSalem/
+    size_gb: 0
+  - game: "Valheim"
+    link: https://store.steampowered.com/app/892970/Valheim/
+    size_gb: 1
+  - game: "Dead by daylight"
+    link: https://store.steampowered.com/app/381210/Dead_by_Daylight/
+    size_gb: 50
+  - game: "Worms Revolution"
+    link: https://store.steampowered.com/app/200170/Worms_Revolution/
+    size_gb: 2
+  - game: "Realm Of The Mad God Exalt"
+    link: https://store.steampowered.com/app/200210/Realm_of_the_Mad_God_Exalt/
+    size_gb: 0.5
+  - game: "DOOM Eternal"
+    link: https://store.steampowered.com/app/782330/DOOM_Eternal/
+    size_gb: 80
+  - game: "Tuk Tuk Race"
+    link: https://store.steampowered.com/app/2398020/Tuk_Tuk_Race/
+    size_gb: 2
+  - game: "RISK: Global Domination"
+    link: https://store.steampowered.com/app/1128810/RISK_Global_Domination/
+    size_gb: 1
+  - game: "PlanetSide 2"
+    link: https://store.steampowered.com/app/218230/PlanetSide_2/
+    size_gb: 20
+  - game: "Eve Online"
+    link: https://store.steampowered.com/app/8500/EVE_Online/
+    size_gb: 23
+  - game: "Crusader Kings II"
+    link: https://store.steampowered.com/app/203770/Crusader_Kings_II/
+    size_gb: 2
+  - game: "Hunt: Showdown"
+    link: https://store.steampowered.com/app/594650/Hunt_Showdown/
+    size_gb: 50
+  - game: "Krunker"
+    link: https://store.steampowered.com/app/1408720/Krunker/
+    size_gb: 0.100
+  - game: "The Lord of the Rings Online"
+    link: https://store.steampowered.com/app/212500/The_Lord_of_the_Rings_Online/
+    size_gb: 32
+  - game: "Trove"
+    link: https://store.steampowered.com/app/304050/Trove/
+    size_gb: 1
+  - game: "Unturned"
+    link: https://store.steampowered.com/app/304930/Unturned/
+    size_gb: 4
+  - game: "Never Split the Party"
+    link: https://store.steampowered.com/app/711810/Never_Split_the_Party/
+    size_gb: 1
+  - game: "Stick Fight: The Game"
+    link: https://store.steampowered.com/app/674940/Stick_Fight_The_Game/
+    size_gb: 0.500
+  - game: "Ultimate Chicken Horse"
+    link: https://store.steampowered.com/app/386940/Ultimate_Chicken_Horse/
+    size_gb: 2
+  - game: "geoguessr"
+    link: https://www.geoguessr.com/
+    size_gb: 0
+  - game: "Mortal Kombat X"
+    link: https://store.steampowered.com/app/307780/Mortal_Kombat_X/
+    size_gb: 36
+  - game: "Injustice 2"
+    link: https://store.steampowered.com/app/627270/Injustice_2/
+    size_gb: 52
+  - game: "Soul Calibur 6"
+    link: https://store.steampowered.com/app/544750/SOULCALIBUR_VI/
+    size_gb: 20
+  - game: "Grid"
+    link: https://store.steampowered.com/app/703860/GRID/
+    size_gb: 100
+  - game: "Diablo 3"
+    link: https://us.diablo3.blizzard.com/en-us/
+    size_gb: 50
+  - game: "Project Zomboid"
+    link: https://store.steampowered.com/app/108600/Project_Zomboid/
+    size_gb: 5
+  - game: "Satisfactory"
+    link: https://store.steampowered.com/app/526870/Satisfactory/
+    size_gb: 15
+  - game: "Phasmophobia"
+    link: https://store.steampowered.com/app/739630/Phasmophobia/
+    size_gb: 21
