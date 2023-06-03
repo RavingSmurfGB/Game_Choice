@@ -17,7 +17,7 @@ RANDOM_PHRASE= [
     "I span the wheel and it came back with: ",
     "I've not rigged this but your game is: ",
     "Did you know you don't get taxed on your: ",
-    "It was between WatchTogether and this, I thought you'd prefer this: "
+    "It was between WatchTogether and this, I thought you'd prefer this: ",
     "Fear Not! I'll save you and your boredom: " 
 ]
 
