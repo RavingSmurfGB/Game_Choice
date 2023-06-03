@@ -164,3 +164,6 @@ games:
   - game: "Phasmophobia"
     link: https://store.steampowered.com/app/739630/Phasmophobia/
     size_gb: 21
+  - game: "Midnight Ghost Hunt"
+    link: https://launcher.store.epicgames.com/en-US/p/midnight-ghost-hunt
+    size_gb: 13
