@@ -39,16 +39,37 @@ def filesize(size_gb: int):
         size = f"{size_gb}GB"
     return size
 
+def random_game(game_list: list[dict]) -> str:
+    """ gets given a list of dict and returns a random game from the list
+    """
+    game = random.choice(game_list)
+    phrase = random.choice(RANDOM_PHRASE)
+    game_str = f"{game['game']} \nLink: {game['link']} \nFilesize: {filesize(game['size_gb'])}"
+    message = phrase+game_str
+
+    return message
+
+
+@bot.command(name="spin_less", pass_context=True)
+async def less_than(ctx, size: int):
+    """ Allows you to set a max filesize before spinning the wheel
+    """
+    game_list = get_games_list()['games']
+    game_list = [game for game in game_list if game['size_gb'] <= size]
+    message = random_game(game_list=game_list)
+
+    await ctx.send(message)
+
+
 @bot.command(name="spin")
-async def random_game(ctx):
+async def random_spin(ctx):
     """Randomly chooses a game from the list
     """
-    game = random.choice(get_games_list()['games'])
-    phrase = random.choice(RANDOM_PHRASE)
-
-    message = phrase + f"{game['game']} \nLink: {game['link']} \nFilesize: {filesize(game['size_gb'])}"
+    game_list = get_games_list()['games']
+    message = random_game(game_list=game_list)
 
     await ctx.send(message)
 
 if __name__ == "__main__":
     bot.run(os.getenv("DISCORD_TOKEN"))
+
