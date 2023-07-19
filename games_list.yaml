@@ -1,0 +1,5 @@
+games:
+  - game: "THERE IS ONLY WOW! YOU MUST PLAY WOW!"
+    link: https://github.com/cmangos/mangos-tbc
+    size_gb: 8
+  
